@@ -11,4 +11,4 @@ export const EXCLUDED_LABELS = [];
 export const API_BASE_URL = "https://api.github.com/repos/digitalmediabremen/i-d.help/";
 // the oauth access token of a github user.
 // so posts from the frontend appear to be made by this user
-export const OAUTH_TOKEN = "00f69af9fb63058d73" + "" + "d9eb7cc6ba43e9d6410bd8";
+export const OAUTH_TOKEN = "ghp_vUZk36uyHLDHBD" + "" + "SqVdBIpG8eqCT3QZ0dyTnL";
