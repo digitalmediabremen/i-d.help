@@ -22,7 +22,6 @@ const App = (props) => {
         <BrowserRouter
             onUpdate={() => {
                 window.scrollTo(0, 0);
-                console.log("sdsd");
             }}
         >
             <div className="App">

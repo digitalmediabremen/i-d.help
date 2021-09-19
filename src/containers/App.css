@@ -61,14 +61,14 @@ body {
     /* font-family: "Times New Roman"; */
 }
 
-.disclaimer {
+.credits {
     line-height: 1.5em;
     overflow: hidden;
     text-align: center;
     font-size: 0.8em;
 }
 
-.disclaimer span {
+.credits span {
     line-height: 1em;
 }
 

@@ -66,6 +66,20 @@ export const getHeaderTextComponent = () => () => {
 
 export const greetingFormula = "Hej";
 
+export const getModeratedByTextComponent = () => () =>
+    (
+        <>
+            Moderiert vom{" "}
+            <a
+                href="https://asta.hfk-bremen.de/en/student-councils/fsr-id/"
+                target="_blank"
+            >
+                FSR ID
+            </a>
+            .
+        </>
+    );
+
 export const questionPlaceHolders = [
     "Any other questions?",
     "Click here, type it and get your answer.",

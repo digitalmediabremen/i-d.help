@@ -6,7 +6,7 @@ import { withRouter, Link } from 'react-router-dom';
 import withSelectedFilters from "utils/withSelectedFilters.js";
 import FilterToggle from "components/FilterToggle.js"
 import withData from "utils/withData.js";
-import Disclaimer from "../components/Disclaimer";
+import Credits from "../components/Credits";
 import Header from "../components/Header";
 
 
@@ -57,7 +57,7 @@ class HomeView extends Component {
             <QuestionList></QuestionList>
           </div>
         </div>
-        <Disclaimer />
+        <Credits />
       </div>
     );
   }
