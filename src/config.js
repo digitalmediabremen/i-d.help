@@ -64,8 +64,14 @@ export const getHeaderTextComponent = () => () => {
     );
 };
 
-export const greetingFormula = "Hej"
+export const greetingFormula = "Hej";
 
+export const questionPlaceHolders = [
+    "Any other questions?",
+    "Click here, type it and get your answer.",
+    "Weitere Fragen?",
+    "Klicke hier, schreibe und bekomme deine Antwort",
+];
 
 export const greetingAnimationItems = [
     "Hybrid",
