@@ -63,3 +63,39 @@ export const getHeaderTextComponent = () => () => {
         </>
     );
 };
+
+export const greetingFormula = "Hej"
+
+
+export const greetingAnimationItems = [
+    "Hybrid",
+    "Confusion",
+    "Digital Ocean",
+    "Restart",
+    "Studios",
+    "Campus",
+    "MZH",
+    "Boulevard",
+    "Getting lost on campus",
+    "Strange uncomfortable chairs",
+    "Chateau Lu",
+    "Cafeteria",
+    "Radio Studio",
+    "Workshops",
+    "Chaos Office",
+    "Speicher XI",
+    "Excitement",
+    "Library",
+    "Course rooms",
+    "Coffee machine",
+    "Segments",
+    "Materials",
+    "Everyone",
+    "See you soon!",
+    "Here we are!",
+    "Where are you?",
+    "Where are you going?",
+    "How are you?",
+    "What's up?",
+    "Do you feel it?",
+];

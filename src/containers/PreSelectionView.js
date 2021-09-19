@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import StaticFilter from "components/StaticFilter.js";
-import Typed from "react-typed";
-import DataStore from "utils/DataStore";
+import GreetingText from "components/GreetingText.js";
+
 import { getIntroTextComponent } from "../config";
 
 const InputView = () => {
@@ -22,23 +22,15 @@ const InputView = () => {
                             ></iframe>
                         </div> */}
                         {/* <br /> */}
-                        <h1 className="">
-                            Hej,{" "}
-                            <Typed
-                                strings={DataStore.studentNames}
-                                typeSpeed={80}
-                                shuffle={true}
-                                loop={true}
-                            />
-                            .
+                        <h1>
+                            <GreetingText />
                         </h1>
                         <p>
                             <IntroTextComponent />
                         </p>
                         <br />
                         <span style={{ lineHeight: "1.5em" }}>
-                            Weiter mit:{" "}
-                            <StaticFilter />
+                            Weiter mit: <StaticFilter />
                         </span>
                     </div>
                 </div>

@@ -4,6 +4,7 @@ import ReactTyped from "react-typed";
 import DataStore from "utils/DataStore";
 import withData from "utils/withData.js";
 import { getHeaderTextComponent } from "../config";
+import GreetingText from "./GreetingText";
 
 const Header = (props) => {
     const StaticFilterToggle = withData(FilterToggle, (dataStore, props) =>
@@ -14,14 +15,7 @@ const Header = (props) => {
     return (
         <div className="intro">
             <h1 className="">
-                Hej,{" "}
-                <ReactTyped
-                    strings={DataStore.studentNames}
-                    typeSpeed={80}
-                    shuffle={true}
-                    loop={true}
-                />
-                .
+                <GreetingText />
             </h1>
             <p className="small">
                 <HeaderTextComponent />
