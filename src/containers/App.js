@@ -1,13 +1,13 @@
-import React, { Component, useEffect } from "react";
-
 import HomeView from "containers/HomeView.js";
 import InputView from "containers/InputView.js";
 import PreSelectionView from "containers/PreSelectionView.js";
 import QuestionView from "containers/QuestionView.js";
-import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
-import "./App.css";
+import React, { useLayoutEffect } from "react";
+import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import withSelectedFilters from "utils/withSelectedFilters.js";
 import { getCSSVariableOverwrites } from "../config";
+import "./App.css";
+
 
 const App = (props) => {
     useLayoutEffect(() => {
