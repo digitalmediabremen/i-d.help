@@ -20,7 +20,7 @@ const Header = (props) => {
             <p className="small">
                 <HeaderTextComponent />
                 <br />
-                <StaticFilterToggle preToggleText="Ausgewählte Sprache:" />
+                <StaticFilterToggle preToggleText="Sprache ändern:" />
             </p>
         </div>
     );
