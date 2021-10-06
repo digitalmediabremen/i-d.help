@@ -64,7 +64,7 @@ export const getHeaderTextComponent = () => () => {
     );
 };
 
-export const greetingFormula = "Hallo";
+export const greetingFormula = "Help";
 
 export const getModeratedByTextComponent = () => () =>
     (
